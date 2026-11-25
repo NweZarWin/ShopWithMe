@@ -1,0 +1,23 @@
+.refund-proof-image-link {
+  display: inline-block;
+  margin-top: 6px;
+}
+
+.refund-proof-image {
+  display: block;
+  max-width: min(100%, 220px);
+  max-height: 180px;
+  border: 1px solid #dedede;
+  border-radius: 4px;
+  object-fit: contain;
+}
+
+.refund-proof-loading,
+.refund-proof-error {
+  margin: 6px 0 0;
+  font-size: 12px;
+}
+
+.refund-proof-error {
+  color: #b42318;
+}
